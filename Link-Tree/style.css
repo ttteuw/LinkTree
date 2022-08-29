@@ -1,0 +1,125 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  } 
+  
+  :root{
+    --botoes:rgb(119, 8, 110);
+    --preto:hsl(0, 8%, 80%);
+    --branco:hsl(0, 0%, 100%);
+    --rosa:hsl(350, 93%, 62%);
+  }
+  body{
+    font-family:'DM Sans', sans-serif;
+    background-image:url("./img/fundo.jpg") ;
+    background-repeat:no-repeat;
+    background-size:1500px 1050px;
+    color: purple;
+    }
+
+  
+  
+   .container {
+    display: block;
+    text-align: center;
+    width: 300px;
+    margin: 60px auto ;
+  
+   }
+  
+   img{
+    width: 100%;
+   }
+   .avatar{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to left,rgb(255, 0, 140) 5%, rgb(202, 0, 202) 35%,yellow 70%,  red 100%   ) ;
+    padding: 2px;
+   }
+  
+  
+   .username{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: purple;
+    opacity: 0.8;
+    font-size: 18px;
+    
+  }
+  
+   a{
+    text-decoration: none;
+    color: var(--branco);
+   }
+   i{
+    color: white
+  
+   }
+   #instagram{
+    color:burlywood ;
+   }
+   #facebook{
+    color: blue;
+   }
+ #whatsapp{
+  color:  green;
+ }
+
+  
+   ul{
+    list-style: none;
+    margin:48px 0;
+   }
+   h1{
+    margin-top: 24px;
+   margin-bottom: 8px ;
+   font-size: 32px;
+   }
+  
+  
+   ul li a{
+   height: 53px;
+   display: flex;
+   align-items: center;
+   justify-content:center ;
+   background:var(--botoes) ;
+   color: var(--branco);
+  font-size: 14px;
+  font-family: 'DM Sans', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  border-radius: 25px;
+  
+  transition: background 400ms;
+   }
+  
+   ul li a:active{
+      position: relative;
+      top: 5px;
+      box-shadow: none;
+    }
+  
+  footer{
+    font-weight:bold ;
+    font-size: 12px;
+    color: white;
+    opacity: 0.4;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+  }
+  footer:hover{
+    opacity:1 ;
+  }
+  
+   footer a {
+    font-family: 'DM Sans', sans-serif;
+    color: purple;
+    
+   }
+   footer a:active{
+   text-decoration: underline;
+   }
+  
